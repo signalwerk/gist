@@ -43,9 +43,6 @@
 [submodule "data/628732e2701e6f0741c0440b8c6a5874"]
 	path = data/628732e2701e6f0741c0440b8c6a5874
 	url = git@gist.github.com:628732e2701e6f0741c0440b8c6a5874.git
-[submodule "data/a9f917acbda9d65ae32d656c88c68975"]
-	path = data/a9f917acbda9d65ae32d656c88c68975
-	url = git@gist.github.com:a9f917acbda9d65ae32d656c88c68975.git
 [submodule "data/0f6722347feef666da64ed0986b261b9"]
 	path = data/0f6722347feef666da64ed0986b261b9
 	url = git@gist.github.com:0f6722347feef666da64ed0986b261b9.git
@@ -55,9 +52,6 @@
 [submodule "data/553a52d05fa62227051ca4e44cd343ad"]
 	path = data/553a52d05fa62227051ca4e44cd343ad
 	url = git@gist.github.com:553a52d05fa62227051ca4e44cd343ad.git
-[submodule "data/dbcf10b716ce55dfd7ec4d2271d646a5"]
-	path = data/dbcf10b716ce55dfd7ec4d2271d646a5
-	url = git@gist.github.com:dbcf10b716ce55dfd7ec4d2271d646a5.git
 [submodule "data/a4084f47fb6b56f79ca33055dd2ea9a3"]
 	path = data/a4084f47fb6b56f79ca33055dd2ea9a3
 	url = git@gist.github.com:a4084f47fb6b56f79ca33055dd2ea9a3.git
