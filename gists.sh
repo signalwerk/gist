@@ -32,7 +32,7 @@ while IFS=$'\t' read -r id description is_public; do
   if git config --file .gitmodules --get-regexp "path" | grep -q "$id"; then
     # Submodule exists, update it
     echo "Updating gist submodule: $description ($privacy_status)"
-    git -C "$submodule_path" pull origin master
+    git -C "$submodule_path" pull origin main
   else
     # Submodule does not exist, add it
     echo "Adding new gist submodule: $description ($privacy_status)"
