@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# abort on error
+set -e
+
 # Define the directory where gists will be stored
 gist_dir="./data"
 
@@ -34,7 +37,15 @@ while IFS=$'\t' read -r id description is_public; do
   # Check if the submodule already exists
   if git config --file .gitmodules --get-regexp "path" | grep -q "$id"; then
     default_branch=$(git -C "$submodule_path" remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
-    # Submodule exists, update it
+
+    # Check for uncommitted changes
+    if [[ -n $(git -C "$submodule_path" status --porcelain) ]]; then
+      echo "Committing changes in $description ($privacy_status)"
+      git -C "$submodule_path" add .
+      git -C "$submodule_path" commit -m "Auto-commit changes"
+    fi
+
+    # Submodule exists, pull updates
     echo "Updating gist submodule: $description ($privacy_status)"
     git -C "$submodule_path" pull origin "$default_branch"
   else
