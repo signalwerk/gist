@@ -18,9 +18,12 @@ echo "" >> "./README.md"
 echo "| ID | Privacy | Description |" >> "./README.md"
 echo "| --- | --- | --- |" >> "./README.md"
 
+# Maintain a list of active gist IDs
+active_gists=()
+
 # Process each gist
 while IFS=$'\t' read -r id description is_public; do
-  # Convert public status to human-readable form
+  active_gists+=("$id")
   privacy_status=$(if [[ "$is_public" == "true" ]]; then echo "Public"; else echo "Private"; fi)
 
   echo "| [$id](https://gist.github.com/$id) | $privacy_status | $description |" >> "./README.md"
@@ -30,9 +33,7 @@ while IFS=$'\t' read -r id description is_public; do
   
   # Check if the submodule already exists
   if git config --file .gitmodules --get-regexp "path" | grep -q "$id"; then
-
     default_branch=$(git -C "$submodule_path" remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
-
     # Submodule exists, update it
     echo "Updating gist submodule: $description ($privacy_status)"
     git -C "$submodule_path" pull origin "$default_branch"
@@ -43,6 +44,16 @@ while IFS=$'\t' read -r id description is_public; do
     git submodule update --init --recursive
   fi
 done <<< "$gists"
+
+# Check and remove any submodules for gists that no longer exist
+for submodule in $(git config --file .gitmodules --get-regexp "path" | awk '{ print $2 }'); do
+  if [[ ! " ${active_gists[@]} " =~ " ${submodule##*/} " ]]; then
+    echo "Removing deleted gist submodule: ${submodule##*/}"
+    git submodule deinit -f "$submodule"
+    git rm -f "$submodule"
+    rm -rf ".git/modules/$submodule"
+  fi
+done
 
 # Add all changes including submodules
 git add .
