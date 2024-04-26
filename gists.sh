@@ -30,9 +30,12 @@ while IFS=$'\t' read -r id description is_public; do
   
   # Check if the submodule already exists
   if git config --file .gitmodules --get-regexp "path" | grep -q "$id"; then
+
+    default_branch=$(git -C "$submodule_path" remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
+
     # Submodule exists, update it
     echo "Updating gist submodule: $description ($privacy_status)"
-    git -C "$submodule_path" pull origin main
+    git -C "$submodule_path" pull origin "$default_branch"
   else
     # Submodule does not exist, add it
     echo "Adding new gist submodule: $description ($privacy_status)"
