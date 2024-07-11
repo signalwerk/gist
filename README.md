@@ -5,6 +5,7 @@ This repository contains the following gists:
 
 | ID | Privacy | Description |
 | --- | --- | --- |
+| [6e5b39d5a4ca74393ebde8837bfa37e4](https://gist.github.com/6e5b39d5a4ca74393ebde8837bfa37e4) | Public | Draw the columns of a grid in the background |
 | [5eaddbd2825501e4ea61784efbf84a31](https://gist.github.com/5eaddbd2825501e4ea61784efbf84a31) | Public | Convert a video to HLS format with multiple resolutions |
 | [e020bd8b605ddc380a28606bd9be887d](https://gist.github.com/e020bd8b605ddc380a28606bd9be887d) | Public | Fetch a JSON and have the option to chancel the request |
 | [7b4411c13073da371b5d3d5d4d73cc9b](https://gist.github.com/7b4411c13073da371b5d3d5d4d73cc9b) | Public | Count code lines in git repo |
