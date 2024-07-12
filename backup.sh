@@ -37,7 +37,7 @@ fetch_gists() {
   echo "This repository contains the following gists:" >> "./README.md"
   echo "" >> "./README.md"
   echo "| ID | Privacy | Description |" >> "./README.md"
-  echo "| --- | --- | --- |" >> "./README.md"
+  echo "| :--- | :---: | :--- |" >> "./README.md"
 
   # Maintain a list of active gist IDs
   active_gists=()
