@@ -1,0 +1,26 @@
+name: Nightly Data Update
+
+on:
+  schedule:
+    # Runs at midnight UTC
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  update_data:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[CI SKIP]')"
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Run the script
+        run: sh backup.sh
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update data [CI SKIP]"
+          committer_name: GitHub Actions
+          committer_email: action@github.com

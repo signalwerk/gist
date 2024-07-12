@@ -67,8 +67,8 @@ for submodule in $(git config --file .gitmodules --get-regexp "path" | awk '{ pr
 done
 
 # Add all changes including submodules
-git add .
-git commit -m "Updated gists submodules and README"
-git push
+# git add .
+# git commit -m "Updated gists submodules and README"
+# git push
 
-echo "All gists have been processed and the main repository is updated."
+# echo "All gists have been processed and the main repository is updated."
