@@ -21,7 +21,7 @@ jobs:
           submodules: 'recursive'
 
       - name: 🔨 Run the script
-        run: bash backup.sh
+        run: bash backup.sh readme-only
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
