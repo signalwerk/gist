@@ -97,9 +97,11 @@ update_submodules() {
 # Main logic
 if [[ "$1" == "readme-only" ]]; then
   fetch_gists
+  echo "All gists have been processed and the README has been updated."
 else
   fetch_gists
   update_submodules
+  echo "All gists have been processed and the README and submodules have been updated."
 fi
 
 # Add all changes including submodules
@@ -107,4 +109,3 @@ fi
 # git commit -m "Updated gists submodules and README"
 # git push
 
-echo "All gists have been processed and the main repository is updated."
