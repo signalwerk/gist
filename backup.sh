@@ -56,6 +56,9 @@ while IFS=$'\t' read -r id description is_public; do
   fi
 done <<< "$gists"
 
+# Ensure all submodules are initialized and updated
+git submodule update --init --recursive
+
 # Check and remove any submodules for gists that no longer exist
 for submodule in $(git config --file .gitmodules --get-regexp "path" | awk '{ print $2 }'); do
   if [[ ! " ${active_gists[@]} " =~ " ${submodule##*/} " ]]; then
