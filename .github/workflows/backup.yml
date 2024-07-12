@@ -1,5 +1,7 @@
 name: Nightly Data Update
 
+permissions: write-all
+
 on:
   schedule:
     # Runs at midnight UTC
@@ -11,10 +13,6 @@ on:
 jobs:
   update_data:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-      repository-projects: write
     if: "!contains(github.event.head_commit.message, '[CI SKIP]')"
     steps:
       - name: Check out the repository
