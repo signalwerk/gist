@@ -22,6 +22,7 @@ This repository contains the following gists:
 | [eadabea1fc42795ed8af2882693d20e1](https://gist.github.com/eadabea1fc42795ed8af2882693d20e1) | Public | reduced lodash get() function in vanilla javascript |
 | [628732e2701e6f0741c0440b8c6a5874](https://gist.github.com/628732e2701e6f0741c0440b8c6a5874) | Public | A fetch like helper in node |
 | [0f6722347feef666da64ed0986b261b9](https://gist.github.com/0f6722347feef666da64ed0986b261b9) | Public | simple uuid4 function |
+| [38b0c06f516a37d10e0039731e344760](https://gist.github.com/38b0c06f516a37d10e0039731e344760) | Private | Custom www.shortkeys.app |
 | [553a52d05fa62227051ca4e44cd343ad](https://gist.github.com/553a52d05fa62227051ca4e44cd343ad) | Public | set menu items to active based on children |
 | [a4084f47fb6b56f79ca33055dd2ea9a3](https://gist.github.com/a4084f47fb6b56f79ca33055dd2ea9a3) | Public | Test for black smearing see: https://gist.githack.com/signalwerk/a4084f47fb6b56f79ca33055dd2ea9a3/raw/592a8821f8f7448d57c25f39ddcc3778f649ebdc/black-smearing.html |
 | [377fdd8e453a0986e294c7767758e19c](https://gist.github.com/377fdd8e453a0986e294c7767758e19c) | Public | Pseudorandom number generator (PRNG) |
