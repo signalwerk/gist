@@ -1,5 +1,21 @@
 #!/bin/bash
 
+# A script to manage GitHub Gist submodules and update the README file
+
+# Usage:
+#   bash backup.sh              # Updates all submodules and the README
+#   bash backup.sh readme-only  # Only updates the README without fetching the latest version of the submodules
+
+# Description:
+# This script automates the process of managing GitHub Gist submodules in this repository.
+
+# It performs the following tasks:
+# - Fetches the list of gists from GitHub, including their privacy status.
+# - Updates the README file with an overview of the gists.
+# - Adds new gists as submodules and pulls updates for existing submodules.
+# - Commits and pushes changes to the main repository.
+# - Removes submodules for gists that no longer exist.
+
 # abort on error
 set -e
 
