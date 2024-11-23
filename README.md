@@ -5,6 +5,9 @@ This repository contains the following gists:
 
 | ID | Privacy | Description |
 | :--- | :---: | :--- |
+| [84b4f2643ec407a5ab8b215c05435c02](https://gist.github.com/84b4f2643ec407a5ab8b215c05435c02) | Private | true |
+| [546cad0a985c526f47ce3264e1055a67](https://gist.github.com/546cad0a985c526f47ce3264e1055a67) | Public | CLI screenshot helper |
+| [8a67c787b347cbd55670565c59cc5fca](https://gist.github.com/8a67c787b347cbd55670565c59cc5fca) | Private | Anchor tests |
 | [6e5b39d5a4ca74393ebde8837bfa37e4](https://gist.github.com/6e5b39d5a4ca74393ebde8837bfa37e4) | Public | Draw the columns of a grid in the background |
 | [5eaddbd2825501e4ea61784efbf84a31](https://gist.github.com/5eaddbd2825501e4ea61784efbf84a31) | Public | Convert a video to HLS format with multiple resolutions |
 | [e020bd8b605ddc380a28606bd9be887d](https://gist.github.com/e020bd8b605ddc380a28606bd9be887d) | Public | Fetch a JSON and have the option to chancel the request |
@@ -32,4 +35,3 @@ This repository contains the following gists:
 | [d8ace5dde10cbbf1a2a8](https://gist.github.com/d8ace5dde10cbbf1a2a8) | Public | Keybase – Proof of my identity |
 | [c0b5662703ec73e11f5b](https://gist.github.com/c0b5662703ec73e11f5b) | Public | Struktur und Inhalt |
 | [9504726](https://gist.github.com/9504726) | Public | The first commented line is your dabblet’s title |
-| [9504514](https://gist.github.com/9504514) | Public | graceful degradation |
