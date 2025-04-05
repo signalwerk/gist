@@ -5,7 +5,9 @@ This repository contains the following gists:
 
 | ID | Privacy | Description |
 | :--- | :---: | :--- |
-| [84b4f2643ec407a5ab8b215c05435c02](https://gist.github.com/84b4f2643ec407a5ab8b215c05435c02) | Private | true |
+| [8d208c3c3dab2c8d45e38b43f4bfe263](https://gist.github.com/8d208c3c3dab2c8d45e38b43f4bfe263) | Public | Provides recommended usage guidelines for the term “open source” in English and German. |
+| [157fe0b5243e99fcb70bd591407f33b6](https://gist.github.com/157fe0b5243e99fcb70bd591407f33b6) | Public | Export HTML Table to CSV |
+| [84b4f2643ec407a5ab8b215c05435c02](https://gist.github.com/84b4f2643ec407a5ab8b215c05435c02) | Public | DNS Monitoring Script for Go-Live Moments |
 | [546cad0a985c526f47ce3264e1055a67](https://gist.github.com/546cad0a985c526f47ce3264e1055a67) | Public | CLI screenshot helper |
 | [8a67c787b347cbd55670565c59cc5fca](https://gist.github.com/8a67c787b347cbd55670565c59cc5fca) | Private | Anchor tests |
 | [6e5b39d5a4ca74393ebde8837bfa37e4](https://gist.github.com/6e5b39d5a4ca74393ebde8837bfa37e4) | Public | Draw the columns of a grid in the background |
@@ -33,5 +35,3 @@ This repository contains the following gists:
 | [5d386f6813f1628cbf25cb9591f812b8](https://gist.github.com/5d386f6813f1628cbf25cb9591f812b8) | Public | A wget based easy poor man`s cache warmer script – See Line 4 for run from Terminal |
 | [60bde0af9cf45e8426b64692cb8858c2](https://gist.github.com/60bde0af9cf45e8426b64692cb8858c2) | Public | ANSIColors |
 | [d8ace5dde10cbbf1a2a8](https://gist.github.com/d8ace5dde10cbbf1a2a8) | Public | Keybase – Proof of my identity |
-| [c0b5662703ec73e11f5b](https://gist.github.com/c0b5662703ec73e11f5b) | Public | Struktur und Inhalt |
-| [9504726](https://gist.github.com/9504726) | Public | The first commented line is your dabblet’s title |
