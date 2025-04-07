@@ -9,7 +9,6 @@ This repository contains the following gists:
 | [157fe0b5243e99fcb70bd591407f33b6](https://gist.github.com/157fe0b5243e99fcb70bd591407f33b6) | Public | Export HTML Table to CSV |
 | [84b4f2643ec407a5ab8b215c05435c02](https://gist.github.com/84b4f2643ec407a5ab8b215c05435c02) | Public | DNS Monitoring Script for Go-Live Moments |
 | [546cad0a985c526f47ce3264e1055a67](https://gist.github.com/546cad0a985c526f47ce3264e1055a67) | Public | CLI screenshot helper |
-| [8a67c787b347cbd55670565c59cc5fca](https://gist.github.com/8a67c787b347cbd55670565c59cc5fca) | Private | Anchor tests |
 | [6e5b39d5a4ca74393ebde8837bfa37e4](https://gist.github.com/6e5b39d5a4ca74393ebde8837bfa37e4) | Public | Draw the columns of a grid in the background |
 | [5eaddbd2825501e4ea61784efbf84a31](https://gist.github.com/5eaddbd2825501e4ea61784efbf84a31) | Public | Convert a video to HLS format with multiple resolutions |
 | [e020bd8b605ddc380a28606bd9be887d](https://gist.github.com/e020bd8b605ddc380a28606bd9be887d) | Public | Fetch a JSON and have the option to chancel the request |
@@ -32,6 +31,7 @@ This repository contains the following gists:
 | [a4084f47fb6b56f79ca33055dd2ea9a3](https://gist.github.com/a4084f47fb6b56f79ca33055dd2ea9a3) | Public | Test for black smearing see: https://gist.githack.com/signalwerk/a4084f47fb6b56f79ca33055dd2ea9a3/raw/592a8821f8f7448d57c25f39ddcc3778f649ebdc/black-smearing.html |
 | [377fdd8e453a0986e294c7767758e19c](https://gist.github.com/377fdd8e453a0986e294c7767758e19c) | Public | Pseudorandom number generator (PRNG) |
 | [cede1b5b5ca02fb545bfff8c02875578](https://gist.github.com/cede1b5b5ca02fb545bfff8c02875578) | Public | simple normalise css |
-| [5d386f6813f1628cbf25cb9591f812b8](https://gist.github.com/5d386f6813f1628cbf25cb9591f812b8) | Public | A wget based easy poor man`s cache warmer script – See Line 4 for run from Terminal |
+| [5d386f6813f1628cbf25cb9591f812b8](https://gist.github.com/5d386f6813f1628cbf25cb9591f812b8) | Public | wget based cache warmer script |
 | [60bde0af9cf45e8426b64692cb8858c2](https://gist.github.com/60bde0af9cf45e8426b64692cb8858c2) | Public | ANSIColors |
 | [d8ace5dde10cbbf1a2a8](https://gist.github.com/d8ace5dde10cbbf1a2a8) | Public | Keybase – Proof of my identity |
+| [9504514](https://gist.github.com/9504514) | Public | graceful degradation |
