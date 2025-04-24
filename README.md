@@ -5,6 +5,7 @@ This repository contains the following gists:
 
 | ID | Privacy | Description |
 | :--- | :---: | :--- |
+| [32f348f0d875c882a7251171e2e9d671](https://gist.github.com/32f348f0d875c882a7251171e2e9d671) | Public | miniTable – a minimal Table, design you can adapt to your needs. |
 | [8d208c3c3dab2c8d45e38b43f4bfe263](https://gist.github.com/8d208c3c3dab2c8d45e38b43f4bfe263) | Public | Provides recommended usage guidelines for the term “open source” in English and German. |
 | [157fe0b5243e99fcb70bd591407f33b6](https://gist.github.com/157fe0b5243e99fcb70bd591407f33b6) | Public | Export HTML Table to CSV |
 | [84b4f2643ec407a5ab8b215c05435c02](https://gist.github.com/84b4f2643ec407a5ab8b215c05435c02) | Public | DNS Monitoring Script for Go-Live Moments |
@@ -34,4 +35,3 @@ This repository contains the following gists:
 | [5d386f6813f1628cbf25cb9591f812b8](https://gist.github.com/5d386f6813f1628cbf25cb9591f812b8) | Public | wget based cache warmer script |
 | [60bde0af9cf45e8426b64692cb8858c2](https://gist.github.com/60bde0af9cf45e8426b64692cb8858c2) | Public | ANSIColors |
 | [d8ace5dde10cbbf1a2a8](https://gist.github.com/d8ace5dde10cbbf1a2a8) | Public | Keybase – Proof of my identity |
-| [9504514](https://gist.github.com/9504514) | Public | graceful degradation |
